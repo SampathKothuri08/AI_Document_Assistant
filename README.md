@@ -48,15 +48,6 @@ A full-stack Node.js + AI application that lets users upload documents (PDF, DOC
    JWT_SECRET=your_jwt_secret
    ```
 
-3. **Start the development servers:**
-   ```bash
-   npm run dev
-   ```
-
-4. **Open your browser:**
-   - Frontend: http://localhost:3000
-   - Backend API: http://localhost:5000
-
 ## Usage
 
 1. **Upload a document** (PDF, DOCX, TXT, CSV)
@@ -72,22 +63,7 @@ A full-stack Node.js + AI application that lets users upload documents (PDF, DOC
 - `POST /api/chat` - Ask questions
 - `GET /api/documents` - List user documents
 
-## Project Structure
 
-```
-├── server/                 # Backend code
-│   ├── index.js           # Main server file
-│   ├── routes/            # API routes
-│   ├── middleware/        # Express middleware
-│   ├── services/          # Business logic
-│   └── utils/             # Utility functions
-├── client/                # Frontend React app
-│   ├── src/
-│   │   ├── components/    # React components
-│   │   ├── pages/         # Page components
-│   │   └── services/      # API services
-└── uploads/               # Document storage
-```
 
 ## License
 
